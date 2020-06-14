@@ -3,10 +3,10 @@
 # First time setup: 
 
 <h2> Installations </h2>
-1. [Git](https://git-scm.com/downloads)
-2. [Node](https://nodejs.org/en/)
-3. [Npm](https://nodejs.org/en/)
-4. [Vscode](https://code.visualstudio.com/)
+[Git](https://git-scm.com/downloads)
+[Node](https://nodejs.org/en/)
+[Npm](https://nodejs.org/en/)
+[Vscode](https://code.visualstudio.com/)
 
 <h2> First time configurations </h2>
 1. Go to [github.com](https://github.com) and create an account
