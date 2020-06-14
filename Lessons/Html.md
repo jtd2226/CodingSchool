@@ -11,11 +11,14 @@ Name|Open tag|Body|Closing tag
 h1|`<h1>`|Text|`</h1>`
 p|`<p>`|text|`</p>`
 
-Tags with different **names** represent different features of a page. These features are referred to as **elements**. 
-Using an example above, an **h1** element represents a header. Anything within the **body** of an **h1** tag will generally be larger and bolder than other text on the page.
+* Tags with different **names** represent different features of a page. 
+* These features are referred to as **elements**. 
 
-The **body** of an **element** is **everything in between** the open and closing tags 
-The **open tag** and **closing tag** must follow the correct format as shown in the table above, but the **body** can contain anything, including spaces, empty lines, and other elements.
+* Using an example above, an **h1** element represents a header. 
+* Anything within the **body** of an **h1** tag will generally be larger and bolder than other text on the page.
+
+* The **body** of an **element** is **everything in between** the open and closing tags 
+* The **open tag** and **closing tag** must follow the correct format as shown in the table above, but the **body** can contain anything, including spaces, empty lines, and other elements.
 
 The following code will create an **h1** element:
 > `<h1> Header </h1>`
