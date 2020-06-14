@@ -4,7 +4,7 @@
 
 HTML is a way of representing the content of a webpage and is written using  **tags**
 
-In code, tags consist of a **name**, an **open tag**, a **closing tag**,  and a **body**.
+In code, tags consist of a `name`, an `open tag`, a `closing tag`,  and a `body`.
 
 Name|Open tag|Body|Closing tag
 |-|-|-|-
