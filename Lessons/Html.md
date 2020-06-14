@@ -11,8 +11,8 @@ Name|Open tag|Body|Closing tag
 h1|`<h1>`|Text|`</h1>`
 p|`<p>`|text|`</p>`
 
-Tags with different **names** represent different features of a page. 
-These features are referred to as **elements**. 
+Tags with different `names` represent different features of a page. 
+These features are referred to as `elements`. 
 
 Using an example above, an `h1` element represents a header. 
 Anything within the `body` of an `h1` tag will generally be larger and bolder than other text on the page.
