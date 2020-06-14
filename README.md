@@ -24,7 +24,7 @@
 
 1. Make a new folder for your project
 2. Open up the folder in vscode 
-3. Open up the terminal in vscode using `control + ``
+3. Open up the terminal in vscode using the keyboard shortcut: control + `
 4. Go to [github.com](https://github.com)
 5. Create new repository by clicking the **+** button at the top right
 6. Name your repository and copy down the name
