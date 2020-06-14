@@ -5,8 +5,7 @@
 <h2> Installations </h2>
 
 * [Git](https://git-scm.com/downloads)
-* [Node](https://nodejs.org/en/)
-* [Npm](https://nodejs.org/en/)
+* [Node](https://nodejs.org/en/download/)
 * [Vscode](https://code.visualstudio.com/)
 
 <h2> First time configurations </h2>
