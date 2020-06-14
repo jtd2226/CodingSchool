@@ -22,9 +22,6 @@
 
 <h2> Deploying the website </h2>
 
-* Anything inside carats: `<stuff>` should be replaced with your custom information. 
-* Make sure to remove the carats as well.
-
 1. Make a new folder for your project
 2. Open up the folder in vscode 
 3. Open up the terminal in vscode using `control + ``
@@ -33,16 +30,16 @@
 6. Name your repository and copy down the name
 7. After creating the repository, copy the url from the page you are redirected to. 
 8. Enter the following command in the terminal 
-> git remote add origin <url you copied>
+> git remote add origin `url you copied`
 9. Run create-react-app with the name of repository from step 2: 
 >create-react-app <your-git-repository-name>
 10. Go to the directory of your newly created app:
-> cd <your-app-name>
+> cd `your-app-name`
 11. Install github pages:
 > npm install gh-pages --save-dev
 12. In Vscode, open up the file named `package.json`
 13. In the file, Above `name: ...`, add the following line:
-> "homepage": "https://<your-github-username>.github.io/<your-app-name>"
+> "homepage": "https://`your-github-username`.github.io/`your-app-name>`
 14. In the same file, find the text: `"scripts"`. add the following to the top: 
 ```
 "scripts": {
@@ -53,7 +50,7 @@
 ```
 15. Deploy the app: 
 > npm run deploy
-16. You can now view your web page at https://<your-github-username>.github.io/<your-app-name>
+16. You can now view your web page at https://`your-github-username`.github.io/`your-app-name`
 
 <h2> Running and testing the app locally </h2>
 
