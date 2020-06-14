@@ -3,12 +3,14 @@
 # First time setup: 
 
 <h2> Installations </h2>
-[Git](https://git-scm.com/downloads)
-[Node](https://nodejs.org/en/)
-[Npm](https://nodejs.org/en/)
-[Vscode](https://code.visualstudio.com/)
+
+* [Git](https://git-scm.com/downloads)
+* [Node](https://nodejs.org/en/)
+* [Npm](https://nodejs.org/en/)
+* [Vscode](https://code.visualstudio.com/)
 
 <h2> First time configurations </h2>
+
 1. Go to [github.com](https://github.com) and create an account
 1. Open up terminal on mac, command line on windows 
 2. Enter the following commands, replace what is in quotes with your account information from github.com:
