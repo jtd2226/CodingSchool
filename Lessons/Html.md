@@ -38,7 +38,7 @@ a|`<a href="https://google.com">` <br/> This is a link <br/>`</a>`|<a> This is a
 In the last example, the tag uses a `property` or `attribute`. 
 `Properties` are placed **inside** the `open tag` directly **after** the `name` followed by a space
 
-Properties consist a **name**, followed by the equal sign: **=**, followed by a **value** written in **quotes**. 
+Properties consist a `name`, followed by the equal sign `=`, followed by a `value` written in `quotes` `"value"`. 
 > `<element name="value"> body of element </element>`
 
 **Properties** are not often well named but it is pretty easy to find out how to use them by doing a google search for the element. 
