@@ -1,4 +1,4 @@
-First time setup: 
+#First time setup: 
 1. Set up git account
 2. Install git: https://git-scm.com/downloads
 3. Create empty repository on website, remember repository name
@@ -24,7 +24,7 @@ First time setup:
 12. Deploy the app: npm run deploy
 13. You can now view your web page at https://<your-github-username>.github.io/<your-app-name>
 
-To run the app locally:
+#To run the app locally:
 1. Install Debugger for Chrome extension in vscode
 2. create .vscode folder in project root directory 
 3. create launch.json file in newly created folder 
@@ -49,7 +49,7 @@ To run the app locally:
 5. enter npm start
 
 
-Setup: 
+#Setup: 
 1. Create empty repository on github, remember repository name
 2. run: git remote add origin <repository-name>
 3. run: create-react-app: create-react-app <repository-name>
@@ -87,26 +87,3 @@ Setting up hot-reloading for testing locally:
     }
     ```
 4. enter npm start
- 
-Useful Terminal Commands:
---help after any command will show you sub commands
-open .
-    - opens folder in current directory 
-cd <directory>
-    - sets current directory according to the folder you specify
-
-Git commands:
-git add <filename>
-git add . 
-    - stages all modified files to be tracked in git
-git commit -m "commit message"
-    - stages the files you've added to be pushed to git cloud
-git push origin <branch-name>
-git diff <filename>
-git diff
-git status 
-git pull 
-git clone
-git checkout -- .
-git checkout <branch-name>
-git checkout -b <branch-name>
