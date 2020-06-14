@@ -1,4 +1,4 @@
-#First time setup: 
+# First time setup: 
 1. Set up git account
 2. Install git: https://git-scm.com/downloads
 3. Create empty repository on website, remember repository name
@@ -49,7 +49,7 @@
 5. enter npm start
 
 
-#Setup: 
+# Setup: 
 1. Create empty repository on github, remember repository name
 2. run: git remote add origin <repository-name>
 3. run: create-react-app: create-react-app <repository-name>
