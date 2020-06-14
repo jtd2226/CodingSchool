@@ -75,6 +75,7 @@
         ]
     }
     ```
-5. enter npm start
+5. enter the following command in the terminal:
+> npm start
 6. A web page should show up displaying your newly created web page.
 7. Now any changes you make to the code will refresh this page after you save 
