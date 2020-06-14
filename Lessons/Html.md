@@ -35,8 +35,8 @@ a|`<a href="https://google.com">` <br/> This is a link <br/>`</a>`|<a> This is a
 
 <h2>Properties/Attributes</h2>
 
-In the last example, the tag uses a **property** or **attribute**. 
-**Properties** are placed **inside** the **open tag** directly **after** the **name** followed by a space
+In the last example, the tag uses a `property` or `attribute`. 
+`Properties` are placed **inside** the `open tag` directly **after** the `name` followed by a space
 
 Properties consist a **name**, followed by the equal sign: **=**, followed by a **value** written in **quotes**. 
 > `<element name="value"> body of element </element>`
