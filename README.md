@@ -39,7 +39,7 @@
 > npm install gh-pages --save-dev
 12. In Vscode, open up the file named `package.json`
 13. In the file, Above `name: ...`, add the following line:
-> "homepage": "https://`your-github-username`.github.io/`your-app-name>`
+> "homepage": "https://`your-github-username`.github.io/`your-app-name`
 14. In the same file, find the text: `"scripts"`. add the following to the top: 
 ```
 "scripts": {
