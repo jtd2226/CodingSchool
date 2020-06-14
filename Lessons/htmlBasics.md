@@ -20,12 +20,12 @@ The **open tag** and **closing tag** must follow the correct format as shown in 
 The following code will create an **h1** element:
 > `<h1> Header </h1>`
 
-Which looks like this on the page:
+Which will produce this on a web page:
 > <h1> Header </h1>
 
 Here are a few more examples of html elements:
 Element|Code|Preview
-|-|-|-|-
+|-|-|-
 h1|`<h1> header </h1>`|<h1> This is a header </h1>
 p|`<p> This is a paragraph </p>`|<p> This is a paragraph </p>
 a|`<a href="http://some url">` <br/> This is a link <br/>`</a>`|<a> This is a link </a>
