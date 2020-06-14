@@ -15,6 +15,7 @@
 1. Open up terminal on mac, command line on windows 
 2. Enter the following commands, replace what is in quotes with your account information from github.com:
 > git config --global user.name "Mona Lisa"
+
 > git config --global user.email "email@example.com"
 3. Enter the following command:
 > npm install -g create-react-app
