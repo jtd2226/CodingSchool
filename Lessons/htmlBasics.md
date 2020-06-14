@@ -28,7 +28,7 @@ Element|Code|Preview
 |-|-|-
 h1|`<h1> header </h1>`|<h1> This is a header </h1>
 p|`<p> This is a paragraph </p>`|<p> This is a paragraph </p>
-a|`<a href="http://someurl">` <br/> This is a link <br/>`</a>`|<a> This is a link </a>
+a|`<a href="https://google.com">` <br/> This is a link <br/>`</a>`|<a> This is a link </a>
 
 <h2>Properties/Attributes</h2>
 
