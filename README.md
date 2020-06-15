@@ -55,10 +55,9 @@
 
 <h2> Running and testing the app locally </h2>
 
-1. Install Debugger for Chrome extension in vscode
-2. create .vscode folder in project root directory 
-3. create launch.json file in newly created folder 
-4. Paste the following code into launch.json and save the file
+1. create .vscode folder in project root directory 
+2. create launch.json file in newly created folder 
+3. Paste the following code into launch.json and save the file
     ```
     {
         "version": "0.2.0",
@@ -76,7 +75,7 @@
         ]
     }
     ```
-5. enter the following command in the terminal:
+4. enter the following command in the terminal:
 > npm start
-6. A web page should show up displaying your newly created web page.
-7. Now any changes you make to the code will refresh this page after you save 
+5. A web page should show up displaying your newly created web page.
+6. Now any changes you make to the code will refresh this page after you save 
