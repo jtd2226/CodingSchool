@@ -28,10 +28,11 @@
 5. Create new repository by clicking the `+` button at the top right
 6. Name your repository and copy down the name
 7. After creating the repository, copy the url from the page you are redirected to. 
-8. Enter the following command in the terminal 
+8. Enter the following commands in the terminal 
+> git init
 > git remote add origin `url you copied`
 9. Run create-react-app with the name of repository from step 2: 
->create-react-app <your-git-repository-name>
+>create-react-app `your-git-repository-name`
 10. Go to the directory of your newly created app:
 > cd `your-app-name`
 11. Install github pages:
