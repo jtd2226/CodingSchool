@@ -30,6 +30,7 @@
 7. After creating the repository, copy the url from the page you are redirected to. 
 8. Enter the following commands in the terminal 
 > git init
+
 > git remote add origin `url you copied`
 9. Run create-react-app with the name of repository from step 2: 
 >create-react-app `your-git-repository-name`
