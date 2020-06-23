@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CodingSchool/static/css/main.5f361e03.chunk.css",
+    "main.js": "/CodingSchool/static/js/main.301118a3.chunk.js",
+    "main.js.map": "/CodingSchool/static/js/main.301118a3.chunk.js.map",
+    "runtime-main.js": "/CodingSchool/static/js/runtime-main.0ebdc58a.js",
+    "runtime-main.js.map": "/CodingSchool/static/js/runtime-main.0ebdc58a.js.map",
+    "static/js/2.86ca0554.chunk.js": "/CodingSchool/static/js/2.86ca0554.chunk.js",
+    "static/js/2.86ca0554.chunk.js.map": "/CodingSchool/static/js/2.86ca0554.chunk.js.map",
+    "index.html": "/CodingSchool/index.html",
+    "precache-manifest.638b1fd0ea3b15ee62ba6fbf4e56ca67.js": "/CodingSchool/precache-manifest.638b1fd0ea3b15ee62ba6fbf4e56ca67.js",
+    "service-worker.js": "/CodingSchool/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/CodingSchool/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.86ca0554.chunk.js.LICENSE.txt": "/CodingSchool/static/js/2.86ca0554.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/CodingSchool/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ebdc58a.js",
+    "static/js/2.86ca0554.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.301118a3.chunk.js"
+  ]
+}
