@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDom from 'react-dom';
 import './App.css';
 import * as serviceWorker from './serviceWorker';
-import Navbar, { NavButton } from './Navigation/navbar';
+import Navbar, {NavButton} from './Navigation/navbar';
 
 class App {
   root = document.getElementById("root")
@@ -14,13 +14,12 @@ class App {
 
 export const app = new App();
 
-const page1=<p>hello</p>
-const page2=<p>goodbye</p>
-
 app.show(
   <Navbar>
-    <NavButton body={page1}> HEllo </NavButton>
-    <NavButton body={page2}> goodbye </NavButton>
+    <NavButton> Test </NavButton>
+    <NavButton> Test 2 </NavButton>
+    <NavButton> Test 3</NavButton>
+    <NavButton> Test 4</NavButton>
   </Navbar>
 );
 
