@@ -55,27 +55,7 @@
 
 <h2> Running and testing the app locally </h2>
 
-1. create .vscode folder in project root directory 
-2. create launch.json file in newly created folder 
-3. Paste the following code into launch.json and save the file
-    ```
-    {
-        "version": "0.2.0",
-        "configurations": [
-            {
-                "name": "Chrome",
-                "type": "chrome",
-                "request": "launch",
-                "url": "http://localhost:3000",
-                "webRoot": "${workspaceFolder}/src",
-                "sourceMapPathOverrides": {
-                "webpack:///src/*": "${webRoot}/*"
-                }
-            }
-        ]
-    }
-    ```
-4. enter the following command in the terminal:
+1. enter the following command in the terminal:
 > npm start
-5. A web page should show up displaying your newly created web page.
-6. Now any changes you make to the code will refresh this page after you save 
+2. A web page should show up displaying your newly created web page.
+3. Now any changes you make to the code will refresh this page after you save
