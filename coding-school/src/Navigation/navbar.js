@@ -4,14 +4,19 @@ import * as Util from '../util';
 class Navbar extends React.Component {
     state = {selectedIndex: -1}
 
-    render() {
-        this.children = React.Children.map(this.props.children, (child, index) => {
-            if(!React.isValidElement(child)) return child
+    cloneChild = (child, index) => {
+        if(React.isValidElement(child)) {
             return React.cloneElement(child, {
                 selected: this.state.selectedIndex === index,
                 onClick: () => this.select(index)
             })
-        })
+        } else {
+            return child
+        }
+    }
+
+    render() {
+        this.children = React.Children.map(this.props.children, this.cloneChild)
         return (
             <>
             <div className="navbar">{this.children}</div>
@@ -35,7 +40,7 @@ class Navbar extends React.Component {
 
         this.setState({
             selectedIndex: wrappedIndex,
-            body: button.props.body
+            body: button.props.linkTo
         })
     }
 
@@ -59,8 +64,12 @@ class Navbar extends React.Component {
 
 class NavButton extends React.Component {
     render() {
+        let className = 'navbutton'
+        if(this.props.selected) {
+            className += ' selected'
+        }
         return (
-            <span className={`navbutton ${this.props.selected ? 'selected' : ''}`} onClick={this.props.onClick}>
+            <span className={className} onClick={this.props.onClick}>
                 {this.props.children}
             </span>
         )
